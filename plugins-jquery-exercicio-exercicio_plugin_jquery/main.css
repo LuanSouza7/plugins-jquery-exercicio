@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+html { /*para fazer com quer a barra de rolagem suma */
+    overflow-x: hidden;/*tira todo o conteudo da horizontal que ultrapassar o tamanho da tela para que nao fique visivel*/
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-campo {
+    margin-bottom: 20px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    background-color: #007bff;
+    display: block;
+    width: 100%; /*vai ocupar 100% do container*/
+    padding: 8px 0; /*espaçamento internto de 8px no topo e parte inferior e 0 nas laterais*/
+    border: none;
+    color: #fff;
+    font-size: 16px; /*tamanho de fonte*/
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.error {
+    color: red
+}
